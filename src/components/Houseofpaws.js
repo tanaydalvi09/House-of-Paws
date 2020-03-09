@@ -1,14 +1,49 @@
-import React from 'react'
+import React, {Component} from 'react';
+import Logo5 from './Logo5.jpeg';
+import Logo4 from './Logo4.jpeg';
+import Logo3 from './Logo3.jpeg';
 
-const Houseofpaws=()=>{
+
+class Houseofpaws extends Component{
+  
+    componentDidMount(){
+        const M = window.M;
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.slider');
+     var instances = M.Slider.init(elems, {});
+  });
+ 
+    }
+    render(){
     return(
-        <div className='container'>
-        <h4 classname='center'>House of paws</h4>
-        <p>Did we pique your interest? Can’t wait to hear from you. Get in touch with us directly if you want to know
-about the people, process or anything else. Here are the different ways in which you can do this.</p>
-
+      <div class="slider">
+    <ul class="slides">
+      <li>
+        <img src={Logo5} alt="Hello"/> 
+        <div class="caption center-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
         </div>
-    )
+      </li>
+      <li>
+        <img src={Logo4} alt="Hello"/> 
+        <div class="caption left-align">
+          <h3>Left Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src={Logo3} alt="Hello"/> 
+        <div class="caption right-align">
+          <h3>Right Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+      
 
+    )
+    }
 }
 export default Houseofpaws

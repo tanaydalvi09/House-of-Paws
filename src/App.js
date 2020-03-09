@@ -1,27 +1,37 @@
 import React from 'react';
-import Navbar from './components/Navbar'
+
+import './App.css';
+import Navbar from './components/Navbar';
+import Navbar1 from './components/Navbar1';
 import {Route, Switch} from 'react-router-dom';
-import Home from './components/Houseofpaws';
+//import Logo from './components/Logo';
+import Menu from './components/Menu';
 import About from './components/About';
-import Contact from './components/Petcare';
+//import Petsitter from './components/Petsitter';
+//import PetCaretaker from './components/PetCaretaker';
+import Houseofpaws from './components/Houseofpaws';
+import HouseofPaws2 from './components/HouseofPaws2';
+import Houseofpaws3 from './components/Houseofpaws3';
+import Houseofpaws4 from './components/Houseofpaws4';
+import Houseofpaws5 from './components/Houseofpaws5';
 
 
 function App() {
   return (
-    
     <div>
-  
       <Navbar />
+         <Navbar1 />
+         <Houseofpaws />
+          <HouseofPaws2 />
+          <Houseofpaws3 />
+         <Houseofpaws4 />
+           <Houseofpaws5 />
       <Switch>
-      
-      <Route exact path='/' component={Home} />
-      <Route path='/about' component={About} />
-      <Route path='/petcare' component={Contact} />
-        
+      <Route path='/menu' component={Menu}/>
+      <Route path='/about' component={About}/>     
       </Switch>
     </div>
-    
   );
 }
-export default App;
 
+export default App;
