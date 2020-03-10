@@ -8,7 +8,7 @@ import {Route, Switch} from 'react-router-dom';
 import Menu from './components/Menu';
 import About from './components/About';
 //import Petsitter from './components/Petsitter';
-//import PetCaretaker from './components/PetCaretaker';
+import PetFinder from './components/PetFinder';
 import Houseofpaws from './components/Houseofpaws';
 import HouseofPaws2 from './components/HouseofPaws2';
 import Houseofpaws3 from './components/Houseofpaws3';
