@@ -10,7 +10,7 @@ return(
     <div class="nav-wrapper blue">
     <a href="Paw.png" class="brand-logo center">Logo</a>
       <ul id="nav-mobile" class="left  hide-on-med-and-down">
-        <li><NavLink to="/menu">Pet Finder</NavLink></li>
+        <li><NavLink to="/PetFinder">Pet Finder</NavLink></li>
         <li><NavLink to="/petsitter">Pet Sitting</NavLink></li>
         </ul>
          <ul id="nav-mobile" class="right1  hide-on-med-and-down">
