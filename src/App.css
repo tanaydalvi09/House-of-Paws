@@ -52,6 +52,7 @@ nav .left{
 
 }
 
+
 nav .right1{
  float: left;
   position: absolute; 
@@ -71,7 +72,7 @@ nav .right1{
 }*/
 
 .slider {
-  
+
     position: relative;
     width: 100%;
      height: 500px;
@@ -102,7 +103,7 @@ nav .right1{
 .card .card-content {
     padding: 24px;
     border-radius: 0 0 2px 2px;
-    background-color: #195381;
+  
 }
 .card-image{
   align-self: rig
@@ -149,4 +150,32 @@ nav .right1{
     top: -53px;
     right: 145px;
 
+}
+
+h6 {
+    font-size: 1.15rem;
+    line-height: 0%;
+    margin: .7666666667rem 0 .46rem 0;
+}
+
+.card .card-content .card-title {
+    display: block;
+    line-height: 32px;
+    margin-bottom: 8px;
+    color: #195381;
+}
+
+li{
+  display: inline-block; 
+   margin: 10px;
+}
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating):hover {
+    color: #195381;
+}
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    color: #195381;
+    margin-right: 24px;
+    -webkit-transition: color .3s ease;
+    transition: color .3s ease;
+    text-transform: uppercase;
 }
