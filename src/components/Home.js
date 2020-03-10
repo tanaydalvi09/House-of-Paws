@@ -4,6 +4,8 @@ import Logo4 from './Logo4.jpeg';
 import Logo3 from './Logo3.jpeg';
 import Logo6 from './Logo6.png';
 import Logo7 from './Logo7.png';
+import Dog from './Dog';
+import {NavLink} from 'react-router-dom';
 //import Logo8 from './Logo8.jpeg';
 
 
@@ -104,7 +106,7 @@ class Home extends Component{
           <p>I am a very simple card. I am good at containing small bits of information.</p>
         </div>
         <div class="card-action">
-          <a href="#">This is a link</a>
+          <NavLink to="/Dog">Marcus</NavLink>
         </div>
       </div>
     </div>
