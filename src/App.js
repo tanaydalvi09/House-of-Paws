@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{Component} from 'react';
 
 import './App.css';
 import Navbar from './components/Navbar';
@@ -11,13 +11,14 @@ import PetFinder from './components/PetFinder';
 import Home from './components/Home';
 
 
-function App() {
+class App extends Component {
+   render(){  
   return (
     <Switch>
     <div>
          <Navbar />
-       <Home />
-
+     
+  <Route exact path='/' component={Home}/>
       <Route path='/PetFinder' component={PetFinder}/>   
       <Route path='/menu' component={Menu}/>
       <Route path='/about' component={About}/>  
@@ -26,5 +27,6 @@ function App() {
       </Switch>
     
   );
+}
 }
 export default App;
