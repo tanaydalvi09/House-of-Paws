@@ -23,8 +23,13 @@ class PetFinder extends Component{
      const M = window.M;
     document.addEventListener('DOMContentLoaded', function() {
         var elems = document.querySelectorAll('.dropdown-trigger');
+       // var elem = document.querySelectorAll('.dropdown-trigger');
+
         var options = document.querySelectorAll('.alignment')
         var instances = M.Dropdown.init(elems, options);
+        //var instance = M.Dropdown.getInstance(elem);
+       // instance.open();
+
       });
 
     }
@@ -43,6 +48,7 @@ class PetFinder extends Component{
 
  <div class="row3">
  <div class="col s12">
+
  <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Distance</a>
  <ul id='dropdown1' class='dropdown-content'>
     <li><a href="#!">one</a></li>
@@ -51,9 +57,9 @@ class PetFinder extends Component{
     <li><a href="#!">three</a></li>
     <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
     <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
-    
   </ul>
-  <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Distance</a>
+
+  <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Breed</a>
  <ul id='dropdown1' class='dropdown-content'>
     <li><a href="#!">one</a></li>
     <li><a href="#!">two</a></li>
@@ -62,6 +68,31 @@ class PetFinder extends Component{
     <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
     <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
   </ul>
+
+  <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Age</a>
+ <ul id='dropdown1' class='dropdown-content'>
+    <li><a href="#!">one</a></li>
+    <li><a href="#!">two</a></li>
+    <li class="divider" tabindex="-1"></li>
+    <li><a href="#!">three</a></li>
+    <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+    <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+  </ul>
+
+  <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Gender</a>
+ <ul id='dropdown1' class='dropdown-content'>
+    <li><a href="#!">one</a></li>
+    <li><a href="#!">two</a></li>
+    <li class="divider" tabindex="-1"></li>
+    <li><a href="#!">three</a></li>
+    <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+    <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+  </ul>
+
+  <button class="btn waves-effect waves-light" type="submit" name="action">Search
+    <i class="material-icons search">send</i>
+  </button>
+  
  </div>
  </div>
 
