@@ -7,7 +7,7 @@ import Logo4 from './Logo4.jpeg';
 //import Logo8 from './Logo8.jpeg';
 
 
-class PetSitter extends Component{
+class PetFinder extends Component{
 
 //     componentDidMount(){
 //         const M = window.M;
@@ -27,9 +27,6 @@ class PetSitter extends Component{
 
         var options = document.querySelectorAll('.alignment')
         var instances = M.Dropdown.init(elems, options);
-
-        var elems = document.querySelectorAll('.datepicker');
-    var instances = M.Datepicker.init(elems, options);
         //var instance = M.Dropdown.getInstance(elem);
        // instance.open();
 
@@ -61,32 +58,9 @@ class PetSitter extends Component{
         </div>
         </div>
     </form> */}
-
-  
-  <input type="text" class="datepicker" placeholder="Start Date"></input>
-  
-  {/* <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Start Date</a>
- <ul id='dropdown1' class='dropdown-content'>
-    <li><a href="#!">one</a></li>
-    <li><a href="#!">two</a></li>
-    <li class="divider" tabindex="-1"></li>
-    <li><a href="#!">three</a></li>
-    <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
-    <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
-  </ul> */}
-  <input type="text" class="datepicker" placeholder="End Date"></input>
+    
  
-  {/* <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>End Date</a>
- <ul id='dropdown1' class='dropdown-content'>
-    <li><a href="#!">one</a></li>
-    <li><a href="#!">two</a></li>
-    <li class="divider" tabindex="-1"></li>
-    <li><a href="#!">three</a></li>
-    <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
-    <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
-  </ul> */}
-
-  <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Services</a>
+ <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Distance</a>
  <ul id='dropdown1' class='dropdown-content'>
     <li><a href="#!">one</a></li>
     <li><a href="#!">two</a></li>
@@ -97,7 +71,31 @@ class PetSitter extends Component{
   </ul>
 
   
-  <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>No. of Pets</a>
+  
+  
+  <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Breed</a>
+ <ul id='dropdown1' class='dropdown-content'>
+    <li><a href="#!">one</a></li>
+    <li><a href="#!">two</a></li>
+    <li class="divider" tabindex="-1"></li>
+    <li><a href="#!">three</a></li>
+    <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+    <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+  </ul>
+
+ 
+  <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Age</a>
+ <ul id='dropdown1' class='dropdown-content'>
+    <li><a href="#!">one</a></li>
+    <li><a href="#!">two</a></li>
+    <li class="divider" tabindex="-1"></li>
+    <li><a href="#!">three</a></li>
+    <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+    <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+  </ul>
+
+  
+  <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Gender</a>
  <ul id='dropdown1' class='dropdown-content'>
     <li><a href="#!">one</a></li>
     <li><a href="#!">two</a></li>
@@ -118,7 +116,7 @@ class PetSitter extends Component{
 
 
 <div class="container">
-    <div><p align="center"><h5>Available Pet Sitters</h5></p>
+    <div><p align="center"><h5>Available Pets</h5></p>
 
     <div class="row">
     <div class="col s4 m4">
@@ -281,9 +279,18 @@ class PetSitter extends Component{
 </div>
 </div>
 
+
+
+
+ 
+ 
+
+ 
+
     )
     }
 
-        
+    
+    
 }
-export default PetSitter
+export default PetFinder

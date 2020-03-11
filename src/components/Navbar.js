@@ -19,7 +19,9 @@ class Navbar extends Component{
     render(){
 return(
   <div>
-    <nav>
+<div class="navbar-fixed"> 
+
+   <nav>
     <div class="nav-wrapper white">
       <a href="#!" class="brand-logo">Logo</a>
       <ul class="right hide-on-med-and-down">
@@ -82,7 +84,10 @@ return(
       </ul>
     </div>
   </nav>
-  <nav >
+  </div>
+
+<div class="navbar-fixed">
+  <nav>
     <div class="nav-wrapper blue">
     <a href="Paw.png" class="brand-logo center">Logo</a>
       <ul id="nav-mobile" class="left  hide-on-med-and-down">
@@ -97,7 +102,11 @@ return(
     </nav>
  </div>
 
+
   
+
+ </div>
+
 
 
  
