@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 // import Logo5 from './Logo5.jpeg';
-// import Logo4 from './Logo4.jpeg';
+import Logo4 from './Logo4.jpeg';
 // import Logo3 from './Logo3.jpeg';
 // import Logo6 from './Logo6.png';
 // import Logo7 from './Logo7.png';
@@ -40,15 +40,26 @@ class PetFinder extends Component{
 
 <div class="row">
 <div class="col s2">
- <i class="material-icons">arrow_back</i>
+ <i class="small material-icons">arrow_back</i>
  <h7>Back to Home</h7>
  </div>
  
  </div>
-
- <div class="row3">
- <div class="col s12">
-
+<div class="row3">
+<i class="small material-icons white-text">place</i>
+ <input type="text" class="suggester-input" placeholder="Location" />
+ 
+    {/* <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="icon_prefix" type="text" class="validate"></input>
+          <label for="icon_prefix">First Name</label>
+        </div>
+        </div>
+    </form> */}
+    
+ 
  <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Distance</a>
  <ul id='dropdown1' class='dropdown-content'>
     <li><a href="#!">one</a></li>
@@ -59,6 +70,9 @@ class PetFinder extends Component{
     <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
   </ul>
 
+  
+  
+  
   <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Breed</a>
  <ul id='dropdown1' class='dropdown-content'>
     <li><a href="#!">one</a></li>
@@ -69,6 +83,7 @@ class PetFinder extends Component{
     <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
   </ul>
 
+ 
   <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Age</a>
  <ul id='dropdown1' class='dropdown-content'>
     <li><a href="#!">one</a></li>
@@ -79,6 +94,7 @@ class PetFinder extends Component{
     <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
   </ul>
 
+  
   <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Gender</a>
  <ul id='dropdown1' class='dropdown-content'>
     <li><a href="#!">one</a></li>
@@ -89,15 +105,166 @@ class PetFinder extends Component{
     <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
   </ul>
 
-  <button class="btn waves-effect waves-light" type="submit" name="action">Search
-    <i class="material-icons search">send</i>
+  
+  <button class="btn waves-effect waves-light" type="submit" name="action">Search  
+    {/* <i class="material-icons">search</i> */}
   </button>
   
+ 
  </div>
- </div>
+ 
+
+
+<div class="container">
+    <div><p align="center"><h5>Available Pets</h5></p>
+
+    <div class="row">
+    <div class="col s4 m4">
+    <div class="card horizontal">
+      <div class="card-image">
+        <img src={Logo4} alt="" class="circle responsive-img"/>
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information.</p>
+        </div>
+        <div class="card-action">
+          <a href="#">This is a link</a>
+        </div>
+      </div>
+    </div>
+    </div>
+  
+  
+
+  
+    <div class="col s4 m4">
+    <div class="card horizontal">
+      <div class="card-image">
+        <img src={Logo4}/>
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information.</p>
+        </div>
+        <div class="card-action">
+          <a href="#">This is a link</a>
+        </div>
+      </div>
+    </div>
+    </div>
+  
+  
+    <div class="col s4 m4">
+    <div class="card horizontal">
+      <div class="card-image">
+        <img src={Logo4}/>
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information.</p>
+        </div>
+        <div class="card-action">
+          <a href="#">This is a link</a>
+        </div>
+      </div>
+    </div>
+    </div>
+  
+    <div class="col s4 m4">
+    <div class="card horizontal">
+      <div class="card-image">
+        <img src={Logo4}/>
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information.</p>
+        </div>
+        <div class="card-action">
+          <a href="#">This is a link</a>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+
+    <div class="row">
+    <div class="col s4 m4">
+    <div class="card horizontal">
+      <div class="card-image">
+        <img src={Logo4}/>
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information.</p>
+        </div>
+        <div class="card-action">
+          <a href="#">This is a link</a>
+        </div>
+      </div>
+    </div>
+    </div>
+  
+
+  
+    <div class="col s4 m4">
+    <div class="card horizontal">
+      <div class="card-image">
+        <img src={Logo4}/>
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information.</p>
+        </div>
+        <div class="card-action">
+          <a href="#">This is a link</a>
+        </div>
+      </div>
+    </div>
+    </div>
+  
+
+  
+    <div class="col s4 m4">
+    <div class="card horizontal">
+      <div class="card-image">
+        <img src={Logo4}/>
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information.</p>
+        </div>
+        <div class="card-action">
+          <a href="#">This is a link</a>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  
+    <div class="col s4 m4">
+    <div class="card horizontal">
+      <div class="card-image">
+        <img src={Logo4}/>
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information.</p>
+        </div>
+        <div class="card-action">
+          <a href="#">This is a link</a>
+        </div>
+      </div>
+    </div>
+    </div>
+</div>
+
+    </div>
+</div>
 
  
-     <div class="row">
+     <div class="row5">
      <div class="col8">
      <ul class="pagination">
 <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
@@ -112,20 +279,13 @@ class PetFinder extends Component{
 </div>
 </div>
 
+
+
+
  
  
 
-/* <div class="pagination">
-<ul class="pagination">
-<li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
-<li class="active"><a href="#!">1</a></li>
-<li class="waves-effect"><a href="#!">2</a></li>
-<li class="waves-effect"><a href="#!">3</a></li>
-<li class="waves-effect"><a href="#!">4</a></li>
-<li class="waves-effect"><a href="#!">5</a></li>
-<li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
-</ul>
-</div> */
+ 
 
     )
     }
