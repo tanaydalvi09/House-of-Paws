@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
-// import Logo5 from './Logo5.jpeg';
+ import Logo5 from './Logo5.jpeg';
 // import Logo4 from './Logo4.jpeg';
 // import Logo3 from './Logo3.jpeg';
-//import Logo6 from './Logo6.png';
-// import Logo7 from './Logo7.png';
+import Logo6 from './Logo6.png';
+ import Marcus from './Marcus.png';
 //import Logo8 from './Logo8.jpeg';
 
 
@@ -55,8 +55,8 @@ He has not been tested with other pets. </p>
       <div class="col s6">Vaccinations up-to-date, spayed / neutered.</div>
     </div>
     <div class="card-content black-text">
-       <div class="col s4">Loves:</div>
-      <div class="col s6">Play ball fetch, Evening walks, Play with other Pets. </div>
+       <div class="col s4">Likes:</div>
+      <div class="col s6">Playing ball fetch, Evening walks, Play with other Pets,Sleeping on Sofa,  Icecream Treats </div>
     </div>
     <div class="card-content black-text">
        <div class="col s4">Age:</div>
@@ -66,20 +66,88 @@ He has not been tested with other pets. </p>
        <div class="col s4">Allergies:</div>
       <div class="col s6">Grapes, Raisins, Nuts</div>
     </div>
+    <div class="card-content black-text">
+       <div class="col s4">Dislikes:</div>
+      <div class="col s6">Bathing</div>
+    </div>
+    <div class="card-content black-text">
+       <div class="col s4">Microchipping:</div>
+      <div class="col s6">Yes</div>
+    </div>
           
         <div class="card-action">
           <a href="#">Adopt me</a>
         </div>
       </div>
     </div>
+    <div class="col s5"> 
+      <div class="card">
+    <div class="card-image waves-effect waves-block waves-light 150px">
+      <img class="activator" src={Marcus} alt="" />
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+       <img class="activator" src={Marcus} alt="" />
+    </div>
+  </div>
+
+          
+      </div>
+          
+
+</div>
+
+<div class="row">
+       <div class="col s7"> 
+      <div class="card white">
+        <div class="card-content black-text">
+          <span class="card-title ">Tom Paw Shelter</span>
+           <div class="col s12 ">-----------------------------------------------------------------------------------------------------------</div>
+ </div>
+<div class="card-content black-text">
+      <div class="col s2 #195381">
+      <i class="material-icons">location_on</i>
+      </div>
+      <div class="col s6">Nusslocher Str. 108, 69190 Walldorf</div>
+      </div>
+      <div class="card-content black-text">
+       <div class="col s2">
+        <i class="material-icons">phone</i>
+       </div>
+      <div class="col s6">06227 1057</div>
+    </div>  
+    <div class="card-content black-text">
+      <div class="col s2 #195381">
+      <i class="material-icons">location_on</i>
+      </div>
+      <div class="col s6">Nusslocher Str. 108, 69190 Walldorf</div>
+      </div> 
+        <div class="card-action">
+          <a href="#">Adopt Marcus</a>
+        </div>
+      </div>
+    </div>
 
 
     
+ <div class="col s3"> 
+     <div class="card">
+    <div class="card">
+        <div class="card-image">
+          <img src={Logo5} />
+          <span class="card-title">Mom's best running buddy</span>
+        </div>
+        <div class="card-action">
+          <a href="#">Read Story ></a>
+        </div>
   </div>
-  </div>
- 
-       
+      </div>      
+</div>
 
+
+ </div>
+       
+</div>
     
 
 

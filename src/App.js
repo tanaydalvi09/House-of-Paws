@@ -9,6 +9,9 @@ import About from './components/About';
 //import Petsitter from './components/Petsitter';
 import Dog from './components/Dog';
 import Home from './components/Home';
+import Registration from './components/Registration';
+
+
 
 
 class App extends Component {
@@ -16,19 +19,19 @@ class App extends Component {
 
    render(){  
   return (
-    <div>
+    
     <Switch>
     <div>
-         <Navbar />
+    <Navbar />
      
   <Route exact path='/' component={Home}/>
       <Route path='/Dog' component={Dog}/>
-      <Route path='/menu' component={Menu}/>
+      <Route path='/Registration' component={Registration}/>
       <Route path='/about' component={About}/>  
   
-      </div>    
-      </Switch>
         </div>
+      </Switch>
+       
   );
 }
 }
