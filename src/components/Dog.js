@@ -14,13 +14,13 @@ class Dog extends Component{
     render(){
     return(
         <div>
-<div class="row">
-<div class="grid-example col s12 m12">
+        <div class="row">
+        <div class="grid-example col s12 m12">
       <ul class="left hide-on-med-and-down">
-        <h6>Back to Matches found</h6>
+      <h7><i class="tiny material-icons">arrow_back</i>  Back to Matches found</h7>
       </ul>
       <ul class="right hide-on-med-and-down">
-        <h6>Next Match</h6>
+      <h7>Next Match  <i class="tiny material-icons">arrow_forward</i></h7>
       </ul>
       </div>
       </div>
@@ -37,7 +37,7 @@ class Dog extends Component{
     <div class="col s12 m6 l5">
     <i class="material-icons">favorite_border</i>
     </div>
-      <div class="col s12 ">-----------------------------------------------------------------------------------------------------------</div>
+      <div class="col s12 "><hr/></div>
   </div>
 <p> Marcus is the most adorable beagle. Much like any other
 pets, he loves attention. He likes playing catch and would also watch TV

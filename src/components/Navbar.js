@@ -24,8 +24,8 @@ return(
         <li><NavLink to="/petsitter">Pet Sitting</NavLink></li>
         </ul>
          <ul id="nav-mobile" class="right1  hide-on-med-and-down">
-        <li><NavLink to="/petcaretaker">About Us</NavLink></li>
-        <li><NavLink to="/about">Contact</NavLink></li>           
+        <li><NavLink to="/about">About Us</NavLink></li>
+        <li><NavLink to="/petcare">Contact</NavLink></li>           
       </ul>
      </div>
     </nav>

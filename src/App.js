@@ -10,7 +10,6 @@ import About from './components/About';
 import Dog from './components/Dog';
 import Home from './components/Home';
 
-
 class App extends Component {
 
 
