@@ -17,7 +17,7 @@ class Dog extends Component{
         <div class="row">
         <div class="grid-example col s12 m12">
       <ul class="left hide-on-med-and-down">
-      <h7><i class="tiny material-icons">arrow_back</i>  Back to Matches found</h7>
+      <a href="/"> <h7><i class="tiny material-icons">arrow_back</i>  Back to Matches Found</h7></a>
       </ul>
       <ul class="right hide-on-med-and-down">
       <h7>Next Match  <i class="tiny material-icons">arrow_forward</i></h7>

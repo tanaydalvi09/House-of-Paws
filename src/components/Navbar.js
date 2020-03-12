@@ -96,7 +96,7 @@ return(
         </ul>
          <ul id="nav-mobile" class="right1  hide-on-med-and-down">
         <li><NavLink to="/about">About Us</NavLink></li>
-        <li><NavLink to="/petcare">Contact</NavLink></li>           
+        <li><NavLink to="/contact">Contact</NavLink></li>           
       </ul>
      </div>
     </nav>

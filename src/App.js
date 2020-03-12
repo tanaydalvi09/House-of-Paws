@@ -37,7 +37,7 @@ class App extends Component {
 
       <Route path='/PetFinder' component={PetFinder}/>
       <Route path='/PetSitter' component={PetSitter}/>
-      <Route path='/AboutUs' component={About}/>  
+      <Route path='/About' component={About}/>  
       <Route path='/Contact' component={Contact}/>
 
   
