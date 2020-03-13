@@ -5,7 +5,8 @@ import React, {Component} from 'react';
 import Logo6 from './Logo6.png';
  import Marcus from './Marcus.png';
 //import Logo8 from './Logo8.jpeg';
-
+import userstory2 from './userstory2.png';
+import UserT2 from './UserT2';
 
 class Dog extends Component{
  
@@ -134,11 +135,11 @@ He has not been tested with other pets. </p>
      <div class="card">
     <div class="card">
         <div class="card-image">
-          <img src={Logo5} />
+          <img src={userstory2} />
           <span class="card-title">Mom's best running buddy</span>
         </div>
         <div class="card-action">
-          <a href="#">Read Story ></a>
+          <a href="/UserT2">Read Story ></a>
         </div>
   </div>
       </div>      

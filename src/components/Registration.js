@@ -34,15 +34,15 @@ class Registration extends Component{
       <div class="col s6"> 
        <h5>Registration</h5>
        <div class="input-field col s8">
-          <input placeholder="Enter Full Name:" id="first_name" type="text" class="validate" />
+          <input id="first_name" type="text" class="validate" />
           <label black for="first_name">Full Name:</label>
         </div>
         <div class="input-field col s8">
-          <input placeholder="Enter Email ID" id="last_name" type="text" class="validate"/>
+          <input id="last_name" type="text" class="validate"/>
           <label black for="last_name">Email ID:</label>       
         </div>
         <div class="input-field col s8">
-          <input placeholder="Enter Password" id="last_name" type="text" class="validate"/>
+          <input id="last_name" type="text" class="validate"/>
           <label black for="last_name">Password:</label>       
         </div>
         <div class="row">

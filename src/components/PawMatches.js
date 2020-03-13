@@ -15,7 +15,7 @@ import {NavLink} from 'react-router-dom';
 
 
 
-class PetFinder extends Component{
+class PetMatches extends Component{
 
 //     componentDidMount(){
 //         const M = window.M;
@@ -52,71 +52,10 @@ class PetFinder extends Component{
       </ul>
       </div>
  </div>
-<div class="row blue">
- <div class="col s1 m3"> 
-<i class="small material-icons white-text"></i>
-</div>
- <div class="col s1 l1">
- <input type="text" class="suggester-input" placeholder="Location" />
-  </div>
- <div class="col s2 l1"> 
- <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Distance</a>
- <ul id='dropdown1' class='dropdown-content'>
-    <li><a href="#!">one</a></li>
-    <li><a href="#!">two</a></li>
-    <li class="divider" tabindex="-1"></li>
-    <li><a href="#!">three</a></li>
-    <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
-    <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
-  </ul>
-  </div>
 
-  
-  
-  <div class="col s2 l1"> 
-  <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Breed</a>
- <ul id='dropdown1' class='dropdown-content'>
-    <li><a href="#!">one</a></li>
-    <li><a href="#!">two</a></li>
-    <li class="divider" tabindex="-1"></li>
-    <li><a href="#!">three</a></li>
-    <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
-    <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
-  </ul>
-   </div>
 
- 
-  <div class="col s2 l1"> 
-  <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Age</a>
- <ul id='dropdown1' class='dropdown-content'>
-    <li><a href="#!">one</a></li>
-    <li><a href="#!">two</a></li>
-    <li class="divider" tabindex="-1"></li>
-    <li><a href="#!">three</a></li>
-    <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
-    <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
-  </ul>
-  </div>
-
-   <div class="col s2 l1">
-  <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Gender</a>
- <ul id='dropdown1' class='dropdown-content'>
-    <li><a href="#!">one</a></li>
-    <li><a href="#!">two</a></li>
-    <li class="divider" tabindex="-1"></li>
-    <li><a href="#!">three</a></li>
-    <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
-    <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
-  </ul>
-</div>
-  <div class="col s1 l1">
-  <button class="btn" type="submit" name="action">Search  
-    {/* <i class="material-icons">search</i> */}
-  </button>
-  </div> 
- </div>
 <div class="row">
-    <div><p align="center"><h5>Available Pets from Nearby Places</h5></p>
+    <div><p align="center"><h5>Your Perfect Paw Match is here</h5></p>
 </div>
 </div>
     <div class="row">
@@ -258,13 +197,7 @@ class PetFinder extends Component{
     </div>
    
   </div>
-  <div class="row">
-<p align="center"><h6>Still can't figure out? Check out our recommendations.</h6></p>
 
-<NavLink to="/Recommendations"><button class="btn waves-effect waves-light" name="action">Show Recommendations 
-    {/* <i class="material-icons">search</i> */}
-  </button></NavLink>
-</div>
 
   <div class="row">
      <div class="col12">
@@ -297,4 +230,4 @@ class PetFinder extends Component{
     
     
 }
-export default PetFinder
+export default PetMatches

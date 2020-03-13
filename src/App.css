@@ -1,18 +1,18 @@
 .App {
   text-align: center;
 }
-
+ 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+ 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+ 
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -23,11 +23,11 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+ 
 .App-link {
   color: #61dafb;
 }
-
+ 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,32 +36,32 @@
     transform: rotate(360deg);
   }
 }
-
+ 
 nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
     height: 55px;
     line-height: 64px;
     color: black;
 }
-
+ 
 nav .left{
  float: right;
-  position: absolute; 
+  position: absolute;
   right: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-
+ 
 }
-
-
+ 
+ 
 nav .right1{
  float: left;
-  position: absolute; 
+  position: absolute;
   left: 63%;
   top: 50%;
   transform: translate(-50%, -50%);
-
+ 
 }
-
+ 
 .blue {
     background-color: #19537B !important;
 }
@@ -70,30 +70,30 @@ nav .right1{
     height: 600px;
     width:1400px;
 }*/
-
+ 
 .slider {
-
+ 
     position: relative;
     width: 100%;
      height: 500px;
     background-color: #EBEBEB;
    
 }
-
+ 
 .slides {
     position: relative;
     width: 100%;
     height: 700px;
-    
+   
 }
-
-.row{
-  background-color: #EBEBEB;
-  margin-bottom: 0px;
-  padding-bottom: 10px;
-  padding-top: 10px;
+ 
+.row {
+    background-color: #EBEBEB;
+    margin-bottom: 0px;
+    /* padding-bottom: 10px; */
+    padding-top: 15px;
 }
-
+ 
 .grey-text.text-darken-4 {
     color: white!important;
 }
@@ -101,33 +101,33 @@ nav .right1{
   background-color: #195381;
      color: white
 }
-
+ 
 .card .card-content {
     padding: 24px;
     border-radius: 0 0 2px 2px;
-  
+ 
 }
 .card-image{
   align-self: rig
 }
-
+ 
 .flow-text {
     font-size: 1.68rem;
     text-align: center;
     font-family: Muli;
 }
-
+ 
 .row2{
   background-color: #195381;
-
+ 
 }
-
+ 
 .row4{
   background-color: #EBEBEB;
    font-family: Muli;
   text-align: right;
 }
-
+ 
 .carousel {
     overflow: hidden;
     position: relative;
@@ -143,7 +143,7 @@ nav .right1{
     transform-origin: 0% 50%;
    background-color: #EBEBEB;
 }
-
+ 
 .carousel .carousel-item>img {
    width: 250%;
     height: 220%;
@@ -151,29 +151,29 @@ nav .right1{
     position: relative;
     top: -53px;
     right: 145px;
-
+ 
 }
-
+ 
 .row3{
   background-color: #19537B;
    font-family: Muli;
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
-
+ 
 }
-
+ 
 .dropdown-trigger btn{
   padding-left: 10px;
   padding-right: 10px;
-
+ 
 }
-
+ 
 .btn.waves-effect.waves-light{
 margin-left: 35px;
 background-color: #ffc400;
 }
-
+ 
 h6 {
     font-size: 1.15rem;
     line-height: 0%;
@@ -186,18 +186,18 @@ h6 {
     text-align: center;
     font-family: sans-serif;
      color: #ffc400;
-     background-color: #EBEBEB;
+     /*background-color: #EBEBEB;*/
 }
-
+ 
 .card .card-content .card-title {
     display: block;
     line-height: 32px;
     margin-bottom: 8px;
     color: #195381;
 }
-
+ 
 /*li{
-  display: inline-block; 
+  display: inline-block;
    margin: 10px;
 }*/
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating):hover {
@@ -210,8 +210,8 @@ h6 {
     transition: color .3s ease;
     text-transform: uppercase;
 }
-
-
+ 
+ 
 .card.horizontal1 {
     display: -webkit-box;
     display: -webkit-flex;
@@ -222,25 +222,25 @@ h6 {
 .card.horizontal1 .card-image1 {
     max-width: 100%;
 }
-
-
+ 
+ 
 .row .col.s3 {
     position: relative;
     width: 25%;
     margin-left: auto;
-    left: 105px;
+ 
     right: auto;
     bottom:-7px
-  
+ 
 }
-
+ 
 .row .col.s5 {
     width: 40.6666666667%;
     margin-left: auto;
     left: auto;
     right: auto;
 }
-
+ 
 .waves-effect {
     position: relative;
     cursor: pointer;
@@ -257,7 +257,7 @@ h6 {
     transition: .3s ease-out;
         top: -7px;
 }
-
+ 
 .modal {
     display: none;
     position: fixed;
@@ -272,21 +272,21 @@ h6 {
     border-radius: 2px;
     will-change: top, opacity;
 }
-
+ 
 input[type=text]:not(.browser-default).validate+label{
       width: 100%;
     font-size: 20px;
     color: black;
         left: -12px;
-
+ 
 }
-
+ 
 .input-field.col label {
     /* left: .75rem; */
     color: black;
      left: -2px;
 }
-
+ 
 .btn, .btn-large, .btn-small {
     text-decoration: none;
     color: black;
@@ -297,9 +297,9 @@ input[type=text]:not(.browser-default).validate+label{
     transition: background-color .2s ease-out;
     /* cursor: pointer; */
     left: -17px;
-    top: -15px;
+    /*top: -15px;*/
 }
-
+ 
 nav ul a {
     -webkit-transition: background-color .3s;
     transition: background-color .3s;
@@ -313,39 +313,81 @@ nav ul a {
   text-align: center;
 }
 
-.btn{
-  width: 11%;
-  margin: 5px;
-  background-color:  #FFFFFF;
+ 
+.circle {
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+}
+ 
+/* .card {
+  position: relative;
+  margin: .5rem 0 1rem 0;
+  background-color: #fff;
+  -webkit-transition: -webkit-box-shadow .25s;
+  transition: -webkit-box-shadow .25s;
+  transition: box-shadow .25s;
+  transition: box-shadow .25s, -webkit-box-shadow .25s;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: thick;
+  border-color: #ffc400;
+} */
+ 
+/* .au {
+  border-style: solid;
+  border-width: thick;
+  border-color: #ffc400;
+  border-radius: 10px;
+  height: 385px;
+}
+*/
+.bgd {
+  border-style: solid;
+  border-width: thick;
+  border-color: #ffc400;
+  border-radius: 10px;
+ 
+}
+ 
+/* .card.horizontal .card-image img {
+  border-radius: 50%;
+  /* max-width: 50%; */
+  /* width: 120px;
+  height: 120px;
+} */
+
+.dropdown-trigger {
+    cursor: pointer;
+    width: 100%;
+    background-color: white;
+}
+
+
+
+.parallax-container.parallax.img{
+  opacity: 100%;
+}
+
+.circle.responsive-img{
+  
+  border-radius: 50%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  height: 90px;
+  width: 100px;
+  border-color: #195381;
+}
+
+
+.radiobuttons{
+  text-align: center;
+}
+
+[type="radio"]:not(:checked)+span, [type="radio"]:checked+span{
   color: #000000;
 }
 
-.h7{
-  padding-bottom: 10px;
+.row5{
+background-color: #ffc400;
 }
-
-.container{
-  text-align: center;
-  width: 1250px;
-}
-
-.row .col.m4{
-  width: 25%;
-}
-
-.suggester-input{
-  width: 20%;
-}
-
-input[type=text]:not(.browser-default){
-  width: 10%;
-  margin-right: 8px;
-  color: #FFFFFF;
-}
-
-.i.small.material-icons.icon-place{
-  
-  padding-bottom: 10px;
-}
-
-

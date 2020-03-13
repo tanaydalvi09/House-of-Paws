@@ -1,14 +1,33 @@
 import React, {Component} from 'react';
 // import Logo5 from './Logo5.jpeg';
+import Logo4 from './Logo4.jpeg';
+// import Logo3 from './Logo3.jpeg';
+// import Logo6 from './Logo6.png';
+// import Logo7 from './Logo7.png';
+//import Logo8 from './Logo8.jpeg';
+import casper from './casper.JPG';
+import molly from './molly.JPG';
+import lolla from './lolla.JPG';
+import marcusprofile from './marcusprofile.png';
+import Dog from './Dog';
 import sitter3 from './sitter3.JPG';
 import sitter7 from './sitter7.JPG';
 import sitter8 from './sitter8.JPG';
 import sitter5 from './sitter5.JPG';
-//import Logo8 from './Logo8.jpeg';
 
 
-class PetSitter extends Component{
+class Favourite extends Component{
 
+//     componentDidMount(){
+//         const M = window.M;
+//   document.addEventListener('DOMContentLoaded', function() {
+//     var elems = document.querySelectorAll('.pagination');
+    //var elem = document.querySelectorAll('.carousel');
+   //  var instances = M.Pagination.init(elems, {});
+   //var instance = M.Carousel.init(elem, {});
+ // });
+ 
+    //}
     componentDidMount(){
      const M = window.M;
     document.addEventListener('DOMContentLoaded', function() {
@@ -28,75 +47,97 @@ class PetSitter extends Component{
     return(
         <div>
 <div class="row">
-<div class="grid-example col s12 m12">
+<div class="col s12">
       <ul class="left hide-on-med-and-down">
-        <h6>Back to Home</h6>
+        <h8>Back to Home</h8>
       </ul>
       </div>
  </div>
-<div class="row blue">
- <div class="col s1 m3"> 
-<i class="small material-icons white-text"></i>
-</div>
- <div class="col s1 l1">
- <input type="text" class="suggester-input" placeholder="Location" />
+ <div class="row blue">
   </div>
- <div class="col s2 l1"> 
- <input type="text" class="datepicker" placeholder="Start Date"></input> 
-  </div>
-  <div class="col s2 l1"> 
- <input type="text" class="datepicker" placeholder="End Date"></input> 
-  </div>
-
-  
-  
-  <div class="col s2 l1"> 
- <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Services</a>
- <ul id='dropdown1' class='dropdown-content'>
-    <li><a href="#!">one</a></li>
-    <li><a href="#!">two</a></li>
-    <li class="divider" tabindex="-1"></li>
-    <li><a href="#!">three</a></li>
-    <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
-    <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
-  </ul>
-   </div>
-
  
-  <div class="col s2 l1"> 
-  <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Pets</a>
- <ul id='dropdown1' class='dropdown-content'>
-    <li><a href="#!">one</a></li>
-    <li><a href="#!">two</a></li>
-    <li class="divider" tabindex="-1"></li>
-    <li><a href="#!">three</a></li>
-    <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
-    <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
-  </ul>
-  </div>
-
-   <div class="col s2 l1">
-  <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Gender</a>
- <ul id='dropdown1' class='dropdown-content'>
-    <li><a href="#!">one</a></li>
-    <li><a href="#!">two</a></li>
-    <li class="divider" tabindex="-1"></li>
-    <li><a href="#!">three</a></li>
-    <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
-    <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
-  </ul>
-</div>
-  <div class="col s1 l1">
-  <button class="btn" type="submit" name="action">Search  
-    {/* <i class="material-icons">search</i> */}
-  </button>
-  </div> 
- </div>
 <div class="row">
-    <div><p align="center"><h5>Available PetSitter from Nearby Places</h5></p>
+    <div><p align="center"><h5>Your Favourite Pets are Here</h5></p>
 </div>
 </div>
     <div class="row">
+    <div class="col s3">
+    <div class="card horizontal">
+      <div class="card-image">
+        <img src={marcusprofile} alt="" class="circle responsive-img"/>
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <p>Hi! I'm Marcus from Dortmund. You can Adopt Me from here.</p>
+        </div>
+        <div class="card-action">
+          <a href="/Dog">Check out Marcus</a>
+        </div>
+      </div>
+    </div>
+    </div>
+  
+  
+
+  
+    <div class="col s3">
+    <div class="card horizontal">
+      <div class="card-image">
+        <img src={casper}/>
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <p>Hi! I'm Casper from Heidelberg. You can Adopt Me from here.</p>
+        </div>
+        <div class="card-action">
+          <a href="#">Check out Casper</a>
+        </div>
+      </div>
+    </div>
+    </div>
+  
+  
+    <div class="col s3">
+    <div class="card horizontal">
+      <div class="card-image">
+        <img src={molly}/>
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <p>Hi! I'm Molly from Mannheim. You can Adopt Me from here.</p>
+        </div>
+        <div class="card-action">
+          <a href="#">Check out Molly</a>
+        </div>
+      </div>
+    </div>
+    </div>
+  
+    <div class="col s3">
+    <div class="card horizontal">
+      <div class="card-image">
+        <img src={lolla}/>
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <p>Hi! I'm Lolla from Nuremberg. You can Adopt Me from here.</p>
+        </div>
+        <div class="card-action">
+          <a href="#">Check out Lolla</a>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+  </div>
+  <div class="row blue">
+  </div>
+  <div class="row">
+    <div><p align="center"><h5>Your Favourite PetSitter are Here</h5></p>
+</div>
+ 
+
+     <div class="row">
     <div class="col s3">
     <div class="card horizontal">
       <div class="card-image">
@@ -167,78 +208,8 @@ class PetSitter extends Component{
     
   </div>
 
-     <div class="row">
-    <div class="col s3">
-    <div class="card horizontal">
-      <div class="card-image">
-        <img src={sitter8} alt="" class="circle responsive-img"/>
-      </div>
-      <div class="card-stacked">
-        <div class="card-content">
-          <p>Hi! I'm Marshall  from Heidelberg. You can check my Profile from here from here.</p>
-        </div>
-        <div class="card-action">
-          <a href="#">To Profile</a>
-        </div>
-      </div>
-    </div>
-    </div>
-  
-  
-
-  
-    <div class="col s3">
-    <div class="card horizontal">
-      <div class="card-image">
-        <img src={sitter7}/>
-      </div>
-      <div class="card-stacked">
-        <div class="card-content">
-          <p>Hi! I'm Lily Aldrin from Paderborn. You can check my Profile from here from here.</p>
-        </div>
-        <div class="card-action">
-          <a href="#">To Profile</a>
-        </div>
-      </div>
-    </div>
-    </div>
-  
-  
-    <div class="col s3">
-    <div class="card horizontal">
-      <div class="card-image">
-        <img src={sitter5}/>
-      </div>
-      <div class="card-stacked">
-        <div class="card-content">
-          <p>Hi! I'm Zoey Pierson from Heilbronn. You can check my Profile from here from here.</p>
-        </div>
-        <div class="card-action">
-          <a href="#">To Profile</a>
-        </div>
-      </div>
-    </div>
-    </div>
-  
-    <div class="col s3">
-    <div class="card horizontal">
-      <div class="card-image">
-        <img src={sitter3}/>
-      </div>
-      <div class="card-stacked">
-        <div class="card-content">
-          <p>Hi! I'm TedMosby from Bonn. You can check my Profile from here from here.</p>
-        </div>
-        <div class="card-action">
-          <a href="#">To Profile</a>
-        </div>
-      </div>
-    </div>
-    </div>
-    
+<div class="row blue">
   </div>
-
- 
   <div class="row">
      <div class="col12">
      <ul class="pagination">
@@ -250,6 +221,7 @@ class PetSitter extends Component{
 <li class="waves-effect"><a href="#!">5</a></li>
 <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
 </ul>
+</div>
 </div>
 </div>
 </div>
@@ -270,4 +242,4 @@ class PetSitter extends Component{
     
     
 }
-export default PetSitter
+export default Favourite
