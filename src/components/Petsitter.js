@@ -28,11 +28,13 @@ class PetSitter extends Component{
     return(
         <div>
 <div class="row">
-<div class="grid-example col s12 m12">
-      <ul class="left hide-on-med-and-down">
-        <h6>Back to Home</h6>
-      </ul>
-      </div>
+
+
+<div class="col s2">
+<a href="/"> <h7><i class="tiny material-icons">arrow_back</i>  Back to Home</h7></a>
+ </div>
+ 
+
  </div>
 <div class="row blue">
  <div class="col s1 m3"> 

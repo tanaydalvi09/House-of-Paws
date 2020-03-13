@@ -12,9 +12,11 @@ import userstory1 from './userstory1.png';
 import userstory3 from './userstory3.png';
 import userstory4 from './userstory4.JPG';
 import marcusprofile from './marcusprofile.png';
+
 import petsitter from './petsitter.JPG';
 import casper from './casper.JPG';
 import molly from './molly.JPG';
+
 import Dog from './Dog';
 import Events from './Events';
 import UserT from './UserT';
@@ -23,9 +25,7 @@ import Footer from './Footer';
 
 import {NavLink} from 'react-router-dom';
 //import Logo8 from './Logo8.jpeg';
- 
- 
- 
+
 class Home extends Component{
  
   componentDidMount(){
@@ -84,7 +84,9 @@ class Home extends Component{
           <p>Find a pet sitter for your pet who loves your pet as you do...</p>
         </div>
         <div class="card-action">
+
           <a href="/PetSitter" class="#195381-text">Click Here</a>
+
         </div>
       </div>
     </div>
@@ -100,13 +102,15 @@ class Home extends Component{
           <p>Socialize your pets in your locality</p>
         </div>
         <div class="card-action">
+
           <a href="/Events" class="#195381-text">Click Here</a>
+
         </div>
       </div>
     </div>
   </div>
     </div>
-    </div>
+  
     <div class="row1">
 <div class="grid-example col s12 m12">
 <p class="flow-text">Find a variety of Available Pets for Adoption.</p>
@@ -125,7 +129,9 @@ class Home extends Component{
           <p>Hi! I'm Marcus from Dortmund. You can Adopt Me from here.</p>
         </div>
         <div class="card-action">
+
           <NavLink to="/Dog" class="#195381-text">Check out Marcus</NavLink>
+
         </div>
       </div>
     </div>
@@ -142,7 +148,9 @@ class Home extends Component{
           <p>Hi! I'm Casper from Heidelberg. You can Adopt Me from here.</p>
         </div>
         <div class="card-action">
+
           <NavLink to="/Dog" class="#195381-text">Check out Casper</NavLink>
+
         </div>
       </div>
     </div>
@@ -158,9 +166,12 @@ class Home extends Component{
           <p>Hi! I'm Molly from Mannheim. You can Adopt Me from here.</p>
         </div>
         <div class="card-action">
+
           <a href="#" class="#195381-text">Check out Molly</a>
-        </div>
+
+      
       </div>
+    </div>
     </div>
     </div>
  
@@ -174,7 +185,9 @@ class Home extends Component{
           <p>Hi! I'm Lolla from Nuremberg. You can Adopt Me from here.</p>
         </div>
         <div class="card-action">
+
           <a href="#" class="#195381-text">Check out Lolla</a>
+
         </div>
       </div>
     </div>
@@ -183,16 +196,20 @@ class Home extends Component{
      <div class="carousel">
  
   <h4>User Testimonials</h4>
+
  
  
        
   <a class="carousel-item" href="./UserT"><img src={userstory1} /></a>
-     <a class="carousel-item" href="./UserT2"><img src={userstory2} /></a>
+
    <a class="carousel-item" href="#three!"><img src={userstory3} /></a>
     <a class="carousel-item" href="#four!"><img src={userstory4} /></a>
     <a class="carousel-item" href="#five!"><img src={Us4} /></a>
-  </div>
-    </div>
+  
+      </div>
+        
+      </div>
+          </div>
  
  
  

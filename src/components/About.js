@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
- //import background from './background.png';
-import abouts from './abouts.png';
+ import background from './background.png';
+import aboutus from './aboutus.png';
  
  
  
@@ -27,7 +27,7 @@ class About extends Component{
       <div class="col s4">
       <div class="card">
         <div class="card-image">
-          <img class="bgd" src={abouts} />      
+          <img class="bgd" src={background} />      
         </div>          
             {/* <img class="bgd" src={background}/> */}            
       </div>
