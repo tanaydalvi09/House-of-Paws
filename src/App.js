@@ -2,7 +2,7 @@ import React,{Component} from 'react';
 
 import './App.css';
 import Navbar from './components/Navbar';
-import {Route, Switch} from 'react-router-dom';
+import {BrowserRouter as Router,Route,Switch} from 'react-router-dom';
 //import Logo from './components/Logo';
 import About from './components/About';
 import Contact from './components/Contact';
@@ -30,8 +30,8 @@ class App extends Component {
 
    render(){  
   return (
-    
     <Switch>
+    <Router>
     <div>
     <Navbar />
      
@@ -40,9 +40,6 @@ class App extends Component {
       <Route path='/Dog' component={Dog}/>
       <Route path='/Registration' component={Registration}/>
         <Route path='/Favourite' component={Favourite}/>
- 
-
-
       <Route path='/PetFinder' component={PetFinder}/>
       <Route path='/PetSitter' component={PetSitter}/>
       <Route path='/About' component={About}/>  
@@ -53,10 +50,11 @@ class App extends Component {
            <Route path='/EventInfo' component={EventInfo}/>
             <Route path='/Recommendations' component={Recommendations}/>
  <Route path='/PawMatches' component={PawMatches}/>
- 
    <Footer/>
         </div>
-      </Switch>
+        </Router>
+        </Switch>
+
      
        
   );

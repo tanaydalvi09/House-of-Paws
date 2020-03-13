@@ -327,7 +327,7 @@ class Recommendations extends Component{
       </div>
       <div>
           
-      <NavLink to="/PawMatch"><button class="btn waves-effect waves-light" name="action">My Match 
+      <NavLink to="/PawMatches"><button class="btn waves-effect waves-light" name="action">My Match 
     {/* <i class="material-icons">search</i> */}
   </button></NavLink>
 
@@ -341,7 +341,7 @@ class Recommendations extends Component{
             <div class="parallax"><img src={Logo5} alt="" /></div>
           </div>
 
-          <div class="section white">
+          {/* <div class="section white">
             <div class="row container">
               <h4 class="header">Let's find out how paw match works.</h4>
               <p class="grey-text text-darken-3 lighten-3">
@@ -371,7 +371,7 @@ class Recommendations extends Component{
           <span class="card-title" >Pet Match</span>
           
           <NavLink to="/PawMatches"><button class="btn" name="action">Paw Matches
-    {/* <i class="material-icons">search</i> */}
+    <i class="material-icons">search</i>
   </button></NavLink>
         </div>
         
@@ -382,7 +382,7 @@ class Recommendations extends Component{
 
               </div>
       </div>
-      </div>
+      </div> */}
 
 
 

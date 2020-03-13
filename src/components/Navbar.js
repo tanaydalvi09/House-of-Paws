@@ -27,7 +27,7 @@ return(
     <nav>
     <div class="nav-wrapper white">
     <ul class="left1 hide-on-med-and-down">
-      <a href="/Home" class="brand-logo"><img src={Logo2} /></a>
+      <a href="/" class="brand-logo"><img src={Logo2} /></a>
       </ul>
       <ul class="right hide-on-med-and-down">
         <li><NavLink to="/sass.html"><i class="material-icons">search</i></NavLink></li>
@@ -91,7 +91,7 @@ return(
   </nav>
   <nav >
     <div class="nav-wrapper blue">
-    <a href="/Home" class="brand-logo center">  <img src={Paw} /></a>
+    <a href="/" class="brand-logo center">  <img src={Paw} /></a>
       <ul id="nav-mobile" class="left  hide-on-med-and-down">
         <li><NavLink to="/PetFinder" class="white-text">Pet Finder</NavLink></li>
         <li><NavLink to="/PetSitter" class="white-text">Pet Sitting</NavLink></li>

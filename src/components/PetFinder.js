@@ -48,7 +48,7 @@ class PetFinder extends Component{
 <div class="row">
 <div class="col s12">
       <ul class="left hide-on-med-and-down">
-        <h8>Back to Home</h8>
+      <a href="/"> <h7><i class="tiny material-icons">arrow_back</i>  Back to Home</h7></a>
       </ul>
       </div>
  </div>
@@ -62,12 +62,12 @@ class PetFinder extends Component{
  <div class="col s2 l1"> 
  <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Distance</a>
  <ul id='dropdown1' class='dropdown-content'>
-    <li><a href="#!">one</a></li>
-    <li><a href="#!">two</a></li>
+    <li><a href="#!">100 m</a></li>
+    <li><a href="#!">200 m</a></li>
     <li class="divider" tabindex="-1"></li>
-    <li><a href="#!">three</a></li>
-    <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
-    <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+    <li><a href="#!">300 m</a></li>
+    <li><a href="#!">400 m</a></li>
+    <li><a href="#!">500 m</a></li>
   </ul>
   </div>
 
@@ -127,7 +127,7 @@ class PetFinder extends Component{
       </div>
       <div class="card-stacked">
         <div class="card-content">
-          <p>Hi! I'm Marcus from Dortmund. You can Adopt Me from here.</p>
+          <p>Hi! I'm Marcus from Botheplatz-Heidelberg, Germany. You can Adopt Me from here.</p>
         </div>
         <div class="card-action">
           <a href="/Dog">Check out Marcus</a>
@@ -248,7 +248,7 @@ class PetFinder extends Component{
       </div>
       <div class="card-stacked">
         <div class="card-content">
-          <p>Hi! I'm Marcus from Dortmund. You can Adopt Me from here.</p>
+          <p>Hi! I'm Marcus from Botheplatz-Heidelberg, Germany. You can Adopt Me from here.</p>
         </div>
         <div class="card-action">
           <a href="#">Check out Marcus</a>
@@ -260,10 +260,10 @@ class PetFinder extends Component{
   </div>
   <div class="row">
 <p align="center"><h6>Still can't figure out? Check out our recommendations.</h6></p>
-
-<NavLink to="/Recommendations"><button class="btn waves-effect waves-light" name="action">Show Recommendations 
+<br></br>
+<p align="center"><h6><NavLink to="/Recommendations"><button align="center" class="btn waves-effect waves-light" name="action">Show Recommendations 
     {/* <i class="material-icons">search</i> */}
-  </button></NavLink>
+  </button></NavLink></h6></p>
 </div>
 
   <div class="row">

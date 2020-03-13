@@ -49,7 +49,7 @@ class Events extends Component{
 <div class="row">
 <div class="col s12">
       <ul class="left hide-on-med-and-down">
-        <h8>Back to Home</h8>
+      <a href="/"> <h7><i class="tiny material-icons">arrow_back</i>  Back to Home</h7></a>
       </ul>
       </div>
  </div>

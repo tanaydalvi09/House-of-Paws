@@ -68,7 +68,7 @@ class Favourite extends Component{
       </div>
       <div class="card-stacked">
         <div class="card-content">
-          <p>Hi! I'm Marcus from Dortmund. You can Adopt Me from here.</p>
+          <p>Hi! I'm Marcus from Botheplatz-Heidelberg, Germany. You can Adopt Me from here.</p>
         </div>
         <div class="card-action">
           <a href="/Dog">Check out Marcus</a>
@@ -145,7 +145,7 @@ class Favourite extends Component{
       </div>
       <div class="card-stacked">
         <div class="card-content">
-          <p>Hi! I'm TedMosby from Bonn. You can check my Profile from here from here.</p>
+          <p>Hi! I'm TedMosby from Botheplatz-Heidelberg, Germany. You can check my Profile from here from here.</p>
         </div>
         <div class="card-action">
           <a href="#">To Profile</a>

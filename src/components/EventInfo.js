@@ -16,7 +16,7 @@ class EventInfo extends Component{
 <div class="row">
 <div class="grid-example col s12 m12">
       <ul class="left hide-on-med-and-down">
-        <h6>Back to Social Events</h6>
+      <a href="/Events"> <h7><i class="tiny material-icons">arrow_back</i>  Back to Social Events</h7></a>
       </ul>
       </div>
       </div>
